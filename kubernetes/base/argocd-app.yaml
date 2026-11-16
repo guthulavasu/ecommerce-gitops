@@ -10,7 +10,7 @@ spec:
   source:
     repoURL: https://github.com/guthulavasu/ecommerce-gitops.git
     targetRevision: main
-    path: kubernetes/base
+    path: kubernetes/overlays/dev
 
   destination:
     server: https://kubernetes.default.svc
